@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #1b0b2e, #0d0318);
+  color: white;
+}
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: hsl(307, 100%, 65%);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #FFD700, #FD28CF, #8F5BFF);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid #00D2A0;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hamburger {
+  width: 28px;
+  display: none;
+}
+
+.hero {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.microphn {
+  position: absolute;
+  width: 10px;
+height: 17px;
+  left: 77px;
+  bottom: 65px;
+  margin-top: -180px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.circle-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.microphn img {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-circle {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #3cff6a;
+  color: black;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  margin-top: 20px;
+  font-size: 48px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+.btnn{
+display: inline-flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 8;
+padding: 12px 20px 12px 20px;
+}
+
+
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+ 
+}
+
+
+
+
