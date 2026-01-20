@@ -10,6 +10,7 @@ body {
   color: white;
 }
 
+/* Navbar */
 .navbar {
   max-width: 1200px;
   margin: auto;
@@ -65,6 +66,8 @@ body {
   width: 28px;
   display: none;
 }
+
+/* Hero */
 .hero {
   min-height: 90vh;
   background-size: cover;
@@ -136,7 +139,10 @@ text-align: center;
 gap: 8;
 padding: 12px 20px 12px 20px;
 
+    ;/* Icon-er nicher ongsho circle-er baire jabe na */
 }
+
+
 
 .hero-buttons {
   margin-top: 25px;
